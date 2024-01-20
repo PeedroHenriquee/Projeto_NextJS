@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { lusitana } from '@/app/ui/fonts';
+import Link from 'next/link';
+
 
 const Header = () => (
   <header className="bg-black">
@@ -19,15 +21,12 @@ const Header = () => (
 
         <ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
           <li>
+          <Link href=''>
             <button>
               <span className={`${lusitana.className} text-base md:text-xl md:leading-tight text-white`}>Inicio</span>
             </button>
-          </li>
-          <li>
-            <button>
-              <span className={`${lusitana.className} text-base md:text-xl md:leading-tight text-white`}>Busca</span>
-            </button>
-          </li>
+            </Link>
+          </li>   
           <li>
             <button>
               <span className={`${lusitana.className} text-base md:text-xl md:leading-tight text-white`}>Promoções</span>

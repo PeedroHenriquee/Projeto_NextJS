@@ -10,6 +10,7 @@ import {
     CarouselPrevious,
    
   } from "@/components/ui/carousel"
+import { lusitana } from '../../fonts';
   
 const PromoCarousel = () => (
     <Carousel>
@@ -46,8 +47,13 @@ const PromoCarousel = () => (
             alt="Imagem 5"
           />
         </CarouselItem>
+        
       </CarouselContent>
+      <span className={`${lusitana.className} text-base md:text-xl md:leading-tight text-black`}>Faça Seu Pedido!</span>
+      <br/>
+      <br/>
       
     </Carousel>
+    
 );
 export default PromoCarousel;

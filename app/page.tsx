@@ -1,11 +1,10 @@
 import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/image';
-import RestaurantButtons from './cponentes/RestaurantButtons';
+import RestaurantButtons from './ui/pages/cponentes/RestaurantButtons';
 import Link from 'next/link';
-import PromoCarousel from './cponentes/PromoCarousel'; // Importe o componente de carousel
-import BotaoComida from './cponentes/botaoComida';
-import Header from './cponentes/Header';
-import Footer from './cponentes/Footer';
+import PromoCarousel from './ui/pages/cponentes/PromoCarousel'; // Importe o componente de carousel
+import BotaoComida from './ui/pages/cponentes/botaoComida';
+import Header from './ui/pages/cponentes/Header';
+import Footer from './ui/pages/cponentes/Footer';
 
 
 
@@ -27,7 +26,7 @@ export default function Page() {
     {/* PromoCarousel */}
     <PromoCarousel />
 
-    <span className={`${lusitana.className} text-base md:text-xl md:leading-tight text-black`}>Peçã o SEU!</span>
+    
     
      {/* Adicione os botões abaixo do texto "Restaurantes" */}
      <BotaoComida />

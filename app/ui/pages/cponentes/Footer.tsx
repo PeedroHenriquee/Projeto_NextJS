@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="bg-black text-white text-center py-4">
-    <p>&copy; D noite food park. Todos os direitos reservados.</p>
+    <p>&copy; Dnoite foodpark. Todos os direitos reservados.</p>
   </footer>
 );
 

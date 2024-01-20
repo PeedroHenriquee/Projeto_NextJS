@@ -114,6 +114,9 @@ const BotaoComida = () => {
               objectFit="cover"
             />
           </button>
+          <br/>
+      <br/>
+      
         </div>
       </div>
     </div>
